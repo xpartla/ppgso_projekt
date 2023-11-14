@@ -5,7 +5,6 @@
 // - Contains a generator object that does not render but adds Asteroids to the scene
 // - Some objects use shared resources and all object deallocations are handled automatically
 // - Controls: LEFT, RIGHT, "R" to reset, SPACE to fire
-//TEST KOMMENT LDADASDSADASDDDDDDDDDDDDDDDDDDDDDDDDD
 #include <iostream>
 #include <map>
 #include <list>
