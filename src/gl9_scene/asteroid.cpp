@@ -14,7 +14,7 @@ std::unique_ptr<ppgso::Shader> Asteroid::shader;
 
 Asteroid::Asteroid() {
   // Set random scale speed and rotation
-  scale *= glm::linearRand(1.0f, 3.0f);
+  scale *= glm::linearRand(1.1f, 3.0f);
   speed = {glm::linearRand(-2.0f, 2.0f), glm::linearRand(-5.0f, -10.0f), 0.0f};
   rotation = glm::ballRand(ppgso::PI);
   rotMomentum = glm::ballRand(ppgso::PI);
